@@ -134,7 +134,7 @@ h1 {
 }
 
 h2 {
-  color: #368f8b;
+  color: #fff;
   font-family: 'Oswald', sans-serif;
   font-size: 1.3rem;
   font-weight: 300;
@@ -198,7 +198,7 @@ article {
 
  header {
    align-items: center;
-   background: url('../img/jonathan-knepper-unsplash-gradient copy.jpg');
+   background: url('../img/annie-spratt-L6GydBHMVGQ-unsplash.jpg');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -366,14 +366,10 @@ main p {
 /****** ABOUT ******/
 
 #about {
-  background: url('../img/jonathan-knepper-unsplash-gradient-2.jpg');
+  background: url('../img/annie-spratt-L6GydBHMVGQ-unsplash.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-#about h1 {
-  color: #368f8b;
 }
 
 .about-items {
@@ -732,6 +728,7 @@ h2 {
   padding: 1em;
   margin: 0;
   text-align: left;
+  color: #fff;
 }
 
 h4 {
@@ -745,7 +742,7 @@ p {
 /* Header */
 
 header {
-  background: url('../img/wood-dark.jpg');
+  background: url('../img/annie-spratt-L6GydBHMVGQ-unsplash.jpg');
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -897,7 +894,7 @@ main {
 /****** ABOUT ******/
 
 #about {
-  background: url('../img/wood-dark.jpg');
+  background: url('../img/annie-spratt-L6GydBHMVGQ-unsplash.jpg');
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
