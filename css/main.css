@@ -198,7 +198,7 @@ article {
 
  header {
    align-items: center;
-   background: url('../img/annie-spratt-L6GydBHMVGQ-unsplash.jpg');
+   background: url('../img/willian-justen-de-vasconcellos-ulUnRNuC_ok-unsplash.jpeg');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -362,11 +362,33 @@ main p {
   max-width: 80%;
 }
 
+.web-items-wide {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  max-width: 90%;
+}
+
+.web-items-wide figure {
+  max-width: 80%;
+  padding-top: 2em;
+}
+
+.web-items-wide figure img {
+  border-radius: .5em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.web-items-wide article {
+  max-width: 80%;
+}
+
 
 /****** ABOUT ******/
 
 #about {
-  background: url('../img/annie-spratt-L6GydBHMVGQ-unsplash.jpg');
+  background: url('../img/willian-justen-de-vasconcellos-ulUnRNuC_ok-unsplash.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -391,6 +413,14 @@ main p {
 
 .about-items article {
   width: 100%;
+}
+
+.about-items article a {
+  color: #fff;
+}
+
+.about-items article a:hover {
+  color:#368f8b
 }
 
 /****** CONTACT ******/
@@ -668,6 +698,37 @@ main p {
   margin: 0;
 }
 
+
+.web-items-wide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 0;
+  margin: 0;
+  max-width: 45%;
+}
+
+.web-items-wide figure {
+  max-width: 100%;
+}
+
+.web-items-wide img {
+  max-width:90%;
+  height: 180px;
+}
+
+.web-items-wide article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+  max-width: 85%;
+  padding: 0;
+  margin: 0;
+}
+
 /****** ABOUT ******/
 
 .about-items figure {
@@ -724,7 +785,8 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-weight: 400;
+  font-size: 2rem;
   padding: 1em;
   margin: 0;
   text-align: left;
@@ -732,17 +794,20 @@ h2 {
 }
 
 h4 {
+  font-weight: 400;
   font-size: 2rem;
+  text-decoration: underline;
 }
 
 p {
-  font-size: 1.5rem;
+  font-weight: 300;
+  font-size: 1.3rem;
 }
 
 /* Header */
 
 header {
-  background: url('../img/annie-spratt-L6GydBHMVGQ-unsplash.jpg');
+  background: url('../img/willian-justen-de-vasconcellos-ulUnRNuC_ok-unsplash.jpeg');
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -891,10 +956,56 @@ main {
   font-size: 1.5rem;
 }
 
+.web-items-wide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+  padding: 0 2em;
+  max-width: 25%;
+}
+
+.web-items-wide figure {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+  max-width: 100%;
+  display: flex;
+  opacity: 1;
+  padding-top: 8em;
+}
+
+.web-items-wide figure:hover {
+  opacity: 0.5;
+}
+
+.web-items-wide img {
+  max-width:100%;
+  height: 250px;
+}
+
+.web-items-wide article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0 2em;
+}
+
+.web-items-wide article h4 {
+  font-size: 1.5rem;
+}
+
 /****** ABOUT ******/
 
 #about {
-  background: url('../img/annie-spratt-L6GydBHMVGQ-unsplash.jpg');
+  background: url('../img/willian-justen-de-vasconcellos-ulUnRNuC_ok-unsplash.jpeg');
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
