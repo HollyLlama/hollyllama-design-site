@@ -702,6 +702,11 @@ main p {
   flex-flow: row wrap;
 }
 
+#portfolio h1 {
+  text-align: center;
+  width: 100%;
+}
+
 #portfolio h2 {
   text-align: center;
   padding-top: 30px;
