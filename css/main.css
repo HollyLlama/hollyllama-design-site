@@ -198,7 +198,7 @@ article {
 
  header {
    align-items: center;
-   background: url('../img/willian-justen-de-vasconcellos-ulUnRNuC_ok-unsplash.jpeg');
+   background: url('../img/llama-gradient2.jpg');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -318,6 +318,13 @@ main p {
  background-color: #368f8b;
 }
 
+#portfolio h2 {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 .web-items-top{
   align-items: center;
   display: flex;
@@ -384,11 +391,63 @@ main p {
   max-width: 80%;
 }
 
+.web-items-logo {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  max-width: 90%;
+}
+
+.web-items-logo figure {
+  max-width: 80%;
+  padding-top: 2em;
+}
+
+.web-items-logo figure img {
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.19));
+}
+
+.web-items-logo article {
+  max-width: 80%;
+}
+
+.web-items-illustration {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  max-width: 90%;
+}
+
+.web-items-illustration figure {
+  max-width: 80%;
+  padding-top: 2em;
+}
+
+.web-items-illustration figure img {
+  border-radius: .5em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.web-items-illustration article {
+  max-width: 80%;
+}
+
+.web-items-illustration article a {
+  color: #fff;
+}
+
+.web-items-illustration article a:hover {
+  color:#205856
+}
+
 
 /****** ABOUT ******/
 
 #about {
-  background: url('../img/willian-justen-de-vasconcellos-ulUnRNuC_ok-unsplash.jpeg');
+  background: url('../img/llama-gradient2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -643,6 +702,13 @@ main p {
   flex-flow: row wrap;
 }
 
+#portfolio h2 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 .web-items-top {
   display: flex;
   justify-content: space-around;
@@ -719,6 +785,66 @@ main p {
 }
 
 .web-items-wide article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+  max-width: 85%;
+  padding: 0;
+  margin: 0;
+}
+
+.web-items-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 0;
+  margin: 0;
+  max-width: 45%;
+}
+
+.web-items-logo figure {
+  max-width: 100%;
+}
+
+.web-items-logo img {
+  max-width:90%;
+  height: 180px;
+}
+
+.web-items-logo article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+  max-width: 85%;
+  padding: 0;
+  margin: 0;
+}
+
+.web-items-illustration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 0;
+  margin: 0;
+  max-width: 45%;
+}
+
+.web-items-illustration figure {
+  max-width: 100%;
+}
+
+.web-items-illustration img {
+  max-width:90%;
+  height: 180px;
+}
+
+.web-items-illustration article {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -807,7 +933,7 @@ p {
 /* Header */
 
 header {
-  background: url('../img/willian-justen-de-vasconcellos-ulUnRNuC_ok-unsplash.jpeg');
+  background: url('../img/llama-gradient2.jpg');
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -874,7 +1000,7 @@ main {
   justify-content: center;
   order: 2;
   width: 95%;
-  padding: 2em 0 8em 5em;
+  padding: 2em 0 12em 5em;
 }
 
 
@@ -882,6 +1008,17 @@ main {
 
 #portfolio {
   padding-bottom: 8em;
+}
+
+#portfolio h1 {
+  padding-top: 20px;
+}
+
+#portfolio h2 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .web-items-top {
@@ -894,7 +1031,7 @@ main {
 }
 
 .web-items-top figure {
-  max-width: 40%;
+  max-width: 45%;
 }
 
 .web-items-top article {
@@ -1002,10 +1139,97 @@ main {
   font-size: 1.5rem;
 }
 
+.web-items-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+  padding: 0 2em;
+  max-width: 25%;
+}
+
+.web-items-logo figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+  max-width: 100%;
+}
+
+.web-items-logo figure:hover {
+  opacity: 0.5;
+}
+
+.web-items-logo img {
+  max-width:100%;
+  height: 250px;
+}
+
+.web-items-logo article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0 2em;
+}
+
+.web-items-logo article h4 {
+  font-size: 1.5rem;
+}
+
+.web-items-illustration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+  padding: 0;
+  max-width: 40%;
+}
+
+.web-items-illustration figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+  max-width: 100%;
+  opacity: 1;
+}
+
+.web-items-illustration figure:hover {
+  opacity: 0.5;
+}
+
+.web-items-illustration img {
+  max-width:90%;
+  height: auto;
+}
+
+.web-items-illustration article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0 2em;
+}
+
+.web-items-illustration article h4 {
+  font-size: 1.5rem;
+}
+
 /****** ABOUT ******/
 
 #about {
-  background: url('../img/willian-justen-de-vasconcellos-ulUnRNuC_ok-unsplash.jpeg');
+  background: url('../img/llama-gradient2.jpg');
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
